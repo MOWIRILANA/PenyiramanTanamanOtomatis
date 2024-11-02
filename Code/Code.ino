@@ -1,4 +1,4 @@
-#define Relay 12
+#define Relay 27
 #define AOUT_PIN 13
 
 void setup() {
@@ -8,8 +8,7 @@ void setup() {
 }
 
 void loop() {
-  int Nilai = analogRead(AOUT_PIN); // read the analog value from sensor
-
+  int Nilai = analogRead(AOUT_PIN); 
   Serial.print("Moisture value: ");
   Serial.println(Nilai);
   delay(500);
