@@ -1,5 +1,5 @@
-#define Relay 27
-#define AOUT_PIN 13
+#define Relay 26
+#define AOUT_PIN 4
 
 void setup() {
   Serial.begin(9600);
